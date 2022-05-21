@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    background: lightgreen;
+    position: fixed;
+    top: 0%;
+    justify-content: space-around;
+}
+
+#footer {
+    position: fixed;
+    /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    /* Поля вокруг текста */
+    background: #39b54a;
+    /* Цвет фона */
+    color: #fff;
+    /* Цвет текста */
+    width: 100%;
+}
+
+.content {
+    height: 100%;
+    margin-left: 100px;
+    padding: 20px 0 30px 100px;
+}
+
+.sidebar {
+    margin-top: 20px;
+    background: lightgray;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+}
+
+.card_box {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+
+.card {
+    background-color: greenyellow;
+    margin-bottom: 60px;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+table,tr,td {
+    border: 1px solid white;
+}

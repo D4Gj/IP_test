@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 0;
+    width: 350px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#footer {
+    position: fixed;
+    /* Фиксированное положение */
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    /* Поля вокруг текста */
+    background: #39b54a;
+    /* Цвет фона */
+    color: #fff;
+    /* Цвет текста */
+    width: 100%;
+}
